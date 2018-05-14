@@ -25,7 +25,7 @@ Zhang, Chenyi, Hongwei Liang, Ke Wang, and Jianling Sun. "Personalized Trip Reco
 Please cite this work if either the datasets or the executive files are used by your works.
 
 Datasets: they are in the folder "data".   
-Programs: the executive files for the platforms linux, mac and windows are in the root directory. The file "libstdc++-6.dll" is a library maybe required by PDFSLogNormal_windows.exe. The outputs of the programs will be stored in the folder "res-log".  
+Programs: the executive files for the platforms Linux, mac and windows are in the root directory. The file "libstdc++-6.dll" is a library maybe required by PDFSLogNormal_windows.exe. The outputs of the programs will be stored in the folder "res-log".  
 
 Currently, we have not released the source code for the executive files. If you are really interested in developing your algorithm based on our algorithms, please contact us in private.  
 
@@ -46,7 +46,7 @@ The original rating scale for Foursquare datasets is 0/1, but the generated rati
 **LA_op.txt**: it indicates the opening hours for each of the 589 POIs. The format of each line is "openingTime \t closingTime". The default starting time of a day is "8am", therefore, "0" indicates "8am", "1" indicates "9am" and so on. 
 
 **LA_mata.txt**: this file specifies some hard parameters for the programs. It has only one line and the format is "#ofUsers \t #ofPOIs \t latitudeOfSource \t longitudeOfSource".   
-"#ofUsers" is the total number of users that the program will recommend trips for. The default value is 100, which means the firt 100 users, and it can be adjusted in the range of [1, totalNumberOfUsers].  
+"#ofUsers" is the total number of users that the program will recommend trips for. The default value is 100, which means the first 100 users, and it can be adjusted in the range of [1, totalNumberOfUsers].  
 "#ofPOIs" is fixed.    
 The latitude and longitude of source indicates the default starting and ending location of the trip for each user. It can be modified as long as it is still in the same city. The default setting for LA is Hollywood, for NY is Central Park and for PX is Central City.
 
